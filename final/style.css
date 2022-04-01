@@ -28,6 +28,18 @@ ul {
     color: white;
 }
 
+a {
+    color: rgb(237, 116, 4);
+}
+
+a:visited {
+    color: rgb(206, 102, 4);
+}
+
+a:focus {
+    color: rgb(187, 93, 4);
+}
+
 .full-margin {
     margin-top: 1em;
     margin-bottom: 1em;
