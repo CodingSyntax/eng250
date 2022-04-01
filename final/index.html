@@ -23,7 +23,7 @@
             </a>
             <p> You are an engineer employed by the interplanetary organization Wonk Enterprises. This organization creates high-tech robots for specialized tasks, such as farming. 
                 They've been using entire planets for resources and reaping the rewards with little effort or repercussions. Your ship has crash landed on an unknown planet where
-                these robots are going haywire! They have gained a sort of twisted sentience, and attack on first sight. Using the scrap you find and your mechanical expertise to
+                these robots are going haywire! They have gained a sort of twisted sentience and attack on first sight. Using the scrap you find and your mechanical expertise to
                 your advantage, your goal is to fight off the robots as you try to repair your ship so you can leave the planet.</p>
             <p><i>‘Be a robot mechanic’, they said. ‘Easy money’, they said. We’re pretty sure the job description didn’t mention crash landing on a far away planet, 
                     with thousands of crazed worker robots out for blood!</i></p>
@@ -196,6 +196,7 @@
 
         function colorChanger() {
             //for github icon
+            let l5 = document.getElementById("layer5").getBoundingClientRect().y;
             if (l5 < 20) icon.style.filter = "invert(1)";
             else icon.style.filter = "";
         }
